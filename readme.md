@@ -15,7 +15,7 @@ The main features are
 - Bootstrap
 - Jquery 
 - Smshorizon.in
-- 
+
 ## License
 
 MIT
