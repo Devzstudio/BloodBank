@@ -2,11 +2,11 @@
 
 Blood bank web application is built with Laravel framework. 
 The main features are 
-Quick registeration 
-Easy validation , 
-Easy to find donors / blood centers / blood camps  
-API for donors list
-SMS 
+- Quick registeration 
+- Easy validation , 
+- Easy to find donors / blood centers / blood camps  
+- API for donors list
+- SMS 
 
 
 ## Credits
@@ -19,8 +19,3 @@ SMS
 ## License
 
 MIT
-
-
-
-
-You are allowed to make modifications in the script. 
