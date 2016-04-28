@@ -18,8 +18,9 @@ class CreateCampsTable extends Migration
             $table->string('city');
             $table->string('district');
             $table->string('state');
-            $table->timestamp('start');
-            $table->timestamp('end');
+            // add nullable to prevent bug in mysql 5.6 above
+            $table->timestamp('start')->nullable();
+            $table->timestamp('end')->nullable();
             $table->timestamps();
         });
     }

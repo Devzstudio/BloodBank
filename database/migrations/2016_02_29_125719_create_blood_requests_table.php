@@ -24,7 +24,8 @@ class CreateBloodRequestsTable extends Migration
             $table->string('contact_person');
             $table->string('contact_phone');
             $table->string('contact_email');
-            $table->timestamp('when');
+            // add nullable to prevent bug in mysql 5.6 above
+            $table->timestamp('when')->nullable();
             $table->timestamps();
         });
     }
