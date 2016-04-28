@@ -15,22 +15,23 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->Integer('age');
-            $table->Integer('weight');
-            $table->String('group');
+            $table->integer('age');
+            $table->integer('weight');
+            $table->string('group');
             $table->string('gender');
-            $table->String('address');
-            $table->String('state');
-            $table->String('district');
-            $table->String('city');
-            $table->String('phone');
-            $table->String('social');
-            $table->TinyInt('whatsapp');
+            $table->string('address');
+            $table->string('state');
+            $table->string('district');
+            $table->string('city');
+            $table->string('phone');
+            $table->string('social');
+            $table->tinyInteger('whatsapp');
             $table->string('email')->unique();
             $table->string('password', 60);
             $table->tinyInteger('is_donor')->default('1');
             $table->tinyInteger('is_admin')->default('0');
-            $table->timestamp('last_donated');
+            // add nullable to prevent bug in mysql 5.6 above
+            $table->timestamp('last_donated')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
