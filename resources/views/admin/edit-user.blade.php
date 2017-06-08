@@ -5,7 +5,7 @@
 
  <div class="panel panel-default">
   <div class="panel-heading">
-<div class="pull-right"><a href="{{ url('admin/delete/support/'.$support->id) }}">Delete</a></div>
+
 
   <i class="fa fa-ticket"></i> Edit User</div>
   <div class="panel-body">
