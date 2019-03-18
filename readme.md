@@ -1,4 +1,4 @@
-## Blood Bank Web Application
+## 🅱️Blood Bank Web Application 
 
 Blood bank web application is built with Laravel framework. 
 The main features are 
@@ -8,44 +8,24 @@ The main features are
 - API for donors list
 - SMS 
 
-# Donate
+# Donate 💵
 
  <a href="https://www.patreon.com/Pjijin" title="Donate to this project"><img src="https://s3.amazonaws.com/patreon_public_assets/toolbox/patreon.png" width="120px" height="30px" alt="Donate" /></a>
  
 
-# Installation
+# Installation 💻
 
-Upload files then perform 'composer update'
-Create env file with database details
+Upload files then run this command 'composer install'
+Rename .env.example to .env file with database details
+Run this command 'php artisan key:generate'
 Perform 'php artisan migrate'
+Completed 🥳
  
-## Screenshots
+## Screenshot  🌅
 
 <img src="http://i.imgur.com/pYo6W0b.png">
-
-<img src="http://i.imgur.com/lhHbcFT.png">
-
-<img src="http://i.imgur.com/84n3FKI.png">
-
-<img src="http://i.imgur.com/zUMpcQm.png">
-
-<img src="http://i.imgur.com/sd9IlsC.png">
-
-<img src="http://i.imgur.com/EvYPdVd.png">
-
-<img src="http://i.imgur.com/hLBNwa4.png">
-
-<img src="http://i.imgur.com/MCSDwbG.png">
-
-
-<img src="http://i.imgur.com/zDel1E5.png">
-
-<img src="http://i.imgur.com/YHfjzRX.png">
-
-<img src="http://i.imgur.com/4NqsUTx.png">
-
-
-## Credits
+ 
+## Credits 🙌
 
 - Laravel
 - Bootstrap
