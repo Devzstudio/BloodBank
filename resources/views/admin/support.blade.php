@@ -31,7 +31,7 @@
 
 @if (count($supports) == 0)
 <tr>
-<td colspan=3>There is no messages.</td>
+<td colspan=4>There is no messages.</td>
 </tr>
 @endif
 
