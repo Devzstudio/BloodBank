@@ -16,9 +16,13 @@ The main features are
 # Installation 💻
 
 Upload files then run this command 'composer install'
+
 Rename .env.example to .env file with database details
+
 Run this command 'php artisan key:generate'
+
 Perform 'php artisan migrate'
+
 Completed 🥳
  
 ## Screenshot  🌅
