@@ -36,7 +36,7 @@
 
 @if (count($centers) == 0)
 <tr>
-<td colspan=5>There is no blood centers.</td>
+<td colspan=6>There is no blood centers.</td>
 </tr>
 @endif
 
