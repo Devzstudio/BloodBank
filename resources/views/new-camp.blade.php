@@ -31,13 +31,13 @@
 
 
  <div class="form-group">
-              <input type="date" name="start" placeholder="Start" class="form-control" id="start" required></input>
+              <input type="text" name="start" placeholder="Start" class="form-control" id="start" required></input>
           </div>
 
 
 
  <div class="form-group">
-              <input type="date" name="end" placeholder="End" class="form-control" id="end" required></input>
+              <input type="text" name="end" placeholder="End" class="form-control" id="end" required></input>
           </div>
 
 
